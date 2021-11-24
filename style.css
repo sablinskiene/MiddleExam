@@ -19,7 +19,7 @@ body {
     color: #fff;
     border-radius: 4px;
     background-color: #027bfe;
-    padding: 8px 12px;
+    padding: 10px 15px;
     cursor: pointer;
     text-decoration: none;
     transition: 0.3s ease-in-out;
@@ -141,7 +141,7 @@ input {
     flex-direction: column;
     align-items: center;
     width: 320px;
-    padding: 80px;
+    padding: 100px;
     
 }
  
@@ -151,7 +151,6 @@ input {
     width: 80px;
     height: auto;
 }
-
 
 h2 {
     text-align: center;
@@ -163,6 +162,43 @@ p {
     font-size: 20px;
     color: #708090;
 }
+
+/* text-image-grid section styles */
+
+.text-image-grid {
+    display: flex;
+    flex-direction: column;
+}
+.text-image {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.text-image:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.Text {
+    padding: 50px;
+    text-align: left;
+    margin: 0px 200px;
+}
+
+.text-image-grid p, h2 {
+    text-align: left;
+}
+
+
+
+/* testimonials section styles */
+
+.testimonials {
+    background-color: #FFFAFA;
+}
+
+
+
 
 
 
