@@ -64,7 +64,7 @@ header .header-title {
     position: relative;
     margin-top: 51px;
     padding: 100px 0;
-    background: pink;
+    background: #fff;
 }
 
 .hero:before {
@@ -133,7 +133,7 @@ input {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: #FFFAFA;
+    background-color: #F5F5F5;
 }
 
 .icon {
@@ -194,7 +194,7 @@ p {
 /* testimonials section styles */
 
 .testimonials {
-    background-color: #FFFAFA;
+    background-color: #F5F5F5;
 }
 
 
@@ -212,7 +212,7 @@ p {
         align-items: center;
         position: relative;
         margin-top: 51px;
-        padding: 50px 0;
+        padding: 100px 0;
         background: pink;
     }
     
@@ -252,6 +252,37 @@ p {
     }
 
 
+/* Footer section styles */
+
+.Footer-conteiner {
+    background-color: #F5F5F5;
+    padding: 50px;
+    position: relative;
+    /* width: 800px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.Left-footer ul li a {
+    text-decoration: none;
+    color: #1E90FF;
+    margin-left: 20px;
+}
+
+.Footer-img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
 
 
 
