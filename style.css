@@ -203,38 +203,44 @@ p {
 .section-name {
     display: flex;
     justify-content: center;
-    padding: 30px;
+    padding: 10px;
 }
 
 .Message-container {
+    position: relative;
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
     justify-content: center;
+    align-items: flex-start;
     width: 300px;
-    padding: 30px;
-}
-    
+    padding: 50px;
+}  
 
 .Message-container .TestText {
     display: flex;
     flex-direction: column;
-    
     text-align: center;
-    margin-right: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 .TestText p {
     font-size: 16px;
+    width: 300px; 
+}
+
+.TestText h3 {
+    margin-bottom: 0;
 }
 
 .TestText .Text-photo {
-    display: flex;
-    justify-content: center;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     background-size: cover;
     background-position: center;
+    margin: auto;
 }
 
 
@@ -353,10 +359,14 @@ ul {
     margin-right: 200px;
 }
 
+.Right-footer a {
+    text-decoration: none;
+}
+
 .Footer-img {
-    width: 40px;
-    height: 40px;
-    padding: 10px;
+    width: 30px;
+    height: 30px;
+    padding: 15px;
 }
 
 
