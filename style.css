@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    max-width: 1300px;
+    max-width: 1000px;
     padding: 0 20px;
     width: 100%;
     margin: 0 auto;
@@ -19,7 +19,7 @@ body {
     color: #fff;
     border-radius: 4px;
     background-color: #027bfe;
-    padding: 10px 15px;
+    padding: 8px 15px;
     cursor: pointer;
     text-decoration: none;
     transition: 0.3s ease-in-out;
@@ -27,7 +27,7 @@ body {
 
 .form .button {
     padding: 12px 40px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .button:hover {
@@ -96,9 +96,9 @@ header .header-title {
 
 .hero .content h1 {
     color: #fff;
-    font-size: 60px;
+    font-size: 45px;
     text-align: center;
-    max-width: 1000px;
+    max-width: 800px;
     width: 100%;
 }
 
@@ -117,8 +117,8 @@ form {
 }
 
 input {
-    width: 600px;
-    font-size: 20px;
+    width: 400px;
+    font-size: 18px;
     padding: 12px 12px;
     margin-right: 10px;
     border-radius: 4px;
@@ -140,15 +140,17 @@ input {
     display:flex;
     flex-direction: column;
     align-items: center;
-    width: 320px;
-    padding: 100px;
+    width: 280px;
+    margin-top:80px;
+    margin-bottom: 80px;
+    padding: 30px;
     
 }
  
 .icons-grid .icon-img {
     display: flex;
     justify-content: center;
-    width: 80px;
+    width: 60px;
     height: auto;
 }
 
@@ -159,7 +161,7 @@ h2 {
 
 p {
     text-align: center;
-    font-size: 20px;
+    font-size: 17px;
     color: #8b8b8b;
 }
 
@@ -183,11 +185,15 @@ p {
 .Text {
     padding: 50px;
     text-align: left;
-    margin: 0px 200px;
+    margin: 0px 100px;
 }
 
 .text-image-grid p, h2 {
     text-align: left;
+}
+
+.Grig-image {
+    width: 50%;
 }
 
 
@@ -197,7 +203,7 @@ p {
 .testimonials {
     position: relative;
     background-color: #F5F5F5;
-    padding: 50px;
+    padding: 40px;
 }
 
 .section-name {
@@ -213,21 +219,21 @@ p {
     margin: 0 auto;
     justify-content: center;
     align-items: flex-start;
-    width: 300px;
-    padding: 50px;
+    width: 200px;
+    padding: 40px;
 }  
 
 .Message-container .TestText {
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .TestText p {
-    font-size: 16px;
-    width: 300px; 
+    font-size: 14px;
+    width: 280px; 
 }
 
 .TestText h3 {
@@ -235,8 +241,8 @@ p {
 }
 
 .TestText .Text-photo {
-    width: 250px;
-    height: 250px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     background-size: cover;
     background-position: center;
@@ -288,7 +294,7 @@ p {
     
     .hero-small .content h1 {
         color: #fff;
-        font-size: 40px;
+        font-size: 30px;
         text-align: center;
         max-width: 1000px;
         width: 100%;
@@ -312,7 +318,7 @@ p {
     display: flex;
     flex-direction: column;
     align-content: flex-start;
-    margin-left: 100px;
+    margin-left: 80px;
     position:relative;
 }
 
@@ -326,6 +332,7 @@ ul {
 .Left-footer ul li a {
     position: relative;
     text-decoration: none;
+    font-size: 14px;
     color: #1E90FF;
     margin-right: 30px;  
 }
@@ -349,14 +356,14 @@ ul {
 }
 
 .copyrights p {
-    font-size: 13px;
+    font-size: 12px;
     position: absolute;
     top: 30px;
     left: 40px;
 }
 
 .Right-footer {
-    margin-right: 200px;
+    margin-right: 100px;
 }
 
 .Right-footer a {
@@ -364,8 +371,8 @@ ul {
 }
 
 .Footer-img {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     padding: 15px;
 }
 
