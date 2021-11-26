@@ -216,10 +216,10 @@ p {
     position: relative;
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
-    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: space-between;
     align-items: flex-start;
-    width: 200px;
     padding: 40px;
 }  
 
