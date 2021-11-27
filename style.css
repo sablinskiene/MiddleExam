@@ -173,6 +173,7 @@ p {
     flex-direction: column;
 }
 .text-image {
+    position: relative;
     display: flex;
     align-items: center;
     margin-bottom: 0;
