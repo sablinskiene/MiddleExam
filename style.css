@@ -197,6 +197,11 @@ p {
     width: 50%;
 }
 
+.Text-image img {
+    height: 100%;
+    width: 100%;
+}
+
 
 
 /* testimonials section styles */
