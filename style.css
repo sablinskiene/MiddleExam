@@ -193,12 +193,14 @@ p {
     text-align: left;
 }
 
-.Grig-image {
+.text-image .Grig-image {
     width: 50%;
 }
 
 .Text-image img {
     position: absolute;
+    left: 0;
+    top: 0;
     height: 100%;
     width: 100%;
 }
