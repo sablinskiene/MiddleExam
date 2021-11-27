@@ -176,7 +176,7 @@ p {
     position: relative;
     display: flex;
     align-items: center;
-    margin-bottom: 0;
+    margin:0;
 }
 
 .text-image:nth-child(odd) {
@@ -186,7 +186,7 @@ p {
 .Text {
     padding: 50px;
     text-align: left;
-    /* margin: 0px 100px; */
+    margin: 0px 100px;
 }
 
 .text-image-grid p, h2 {
