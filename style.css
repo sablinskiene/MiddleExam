@@ -203,6 +203,8 @@ p {
             align-content: center;
             justify-content: center;
             padding: 50px;
+            margin: 0;
+            
         }
     
         .icon{
@@ -211,6 +213,7 @@ p {
             text-align: center;
             justify-content: center;
             width: 90%;
+            padding: 0;
             margin-top: 0;
             margin-bottom: 0;
         }
@@ -231,7 +234,7 @@ p {
     position: relative;
     display: flex;
     align-items: center;
-    margin:0;
+    margin: 0;
 }
 
 .text-image:nth-child(odd) {
@@ -271,6 +274,7 @@ p {
         text-decoration: none;
         padding-left: 0px;
         padding-right: 0px;
+        margin: 0 auto;
     }
     .text-image:nth-child(odd) {
 
