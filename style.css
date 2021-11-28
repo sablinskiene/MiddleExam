@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 1200px;
     padding: 0 20px;
     width: 100%;
     margin: 0 auto;
@@ -19,7 +19,7 @@ body {
     color: #fff;
     border-radius: 4px;
     background-color: #027bfe;
-    padding: 8px 15px;
+    padding: 8px 12px;
     cursor: pointer;
     text-decoration: none;
     transition: 0.3s ease-in-out;
@@ -118,7 +118,7 @@ form {
 }
 
 input {
-    width: 400px;
+    width: 50%;
     font-size: 18px;
     padding: 12px 12px;
     margin-right: 10px;
@@ -132,19 +132,19 @@ input {
     form{
         flex-direction: column;
         align-content: space-around;
+        margin: auto;
     }
     form input{
-        width: 90%;
+        width: 95%;
+        margin: auto;
+        margin-left: 0px;
         margin-bottom: 10px;
-        
-        margin-left: 5%;
-        margin-right: 5%;
+
        
     }
    form .button {
-       width: 73%;
-       margin-left: 5%;
-       margin-right: 5%;
+       width: 80%;
+       margin: auto;
        text-align: center;
     }
     }
@@ -232,9 +232,9 @@ p {
 }
 
 .Text {
-    padding: 50px;
+    padding: 100px;
     text-align: left;
-    margin: 0px 100px;
+    margin: 0px 90px;
 }
 
 .text-image-grid p, h2 {
@@ -261,7 +261,6 @@ p {
         display: flex;
         align-items: center;
         flex-direction: column;
-        margin-bottom: 20px;
         text-decoration: none;
         padding-left: 0px;
         padding-right: 0px;
@@ -271,19 +270,21 @@ p {
         display: flex;
         align-items: center;
         flex-direction: column;
-        margin-bottom: 20px;
         text-decoration: none;
         padding-left: 0px;
         padding-right: 0px;
     }
 
-    
-    .text-image img{
-    
-    width: 100%;
-    height: 100%;
-    /* object-fit: none;  */
-}
+    .text-image .Grig-image {
+        width: 100%;
+    }
+
+    .Text {
+        padding: 70px;
+        text-align: left;
+        margin: 0px 70px;
+    }
+
 }
 
 
@@ -380,10 +381,8 @@ p {
         text-align: center;
     }
     .TestText p{
-        padding-left: 40px;
-        padding-right: 40px;
-        margin-bottom: 40px;
-        
+        margin:auto; 
+        padding: 10px;       
     }
 }
 
@@ -436,6 +435,9 @@ p {
         max-width: 1000px;
         width: 100%;
     }
+    
+
+
 
     @media (max-width: 700px) {
         .herro-small {
@@ -560,6 +562,10 @@ ul {
         padding-top: 10px;
         padding-bottom: 40px;
         margin: auto;
+    }
+
+    .Left-footer ul li a {
+        font-size: 12px;
     }
 }
 
