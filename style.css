@@ -272,9 +272,10 @@ p {
         align-items: center;
         flex-direction: column;
         text-decoration: none;
-        padding-left: 0px;
-        padding-right: 0px;
-        margin: 0 auto;
+        /* padding-left: 0px;
+        padding-right: 0px; */
+        width: 100%;
+        margin: auto;
     }
     .text-image:nth-child(odd) {
 
@@ -291,9 +292,9 @@ p {
     }
 
     .Text {
-        padding: 50px;
+        padding: 70px;
         text-align: left;
-        margin: 0px 70px;
+        margin: 0px 40px;
     }
 
 }
