@@ -118,7 +118,7 @@ form {
 }
 
 input {
-    width: 50%;
+    width: 400px;
     font-size: 18px;
     padding: 12px 12px;
     margin-right: 10px;
@@ -135,7 +135,7 @@ input {
         margin: auto;
     }
     form input{
-        width: 95%;
+        width: 90%;
         margin: auto;
         margin-left: 0px;
         margin-bottom: 10px;
@@ -359,7 +359,7 @@ p {
         flex-direction:column;
         align-content: center;
         justify-content: center;
-        padding: 0;
+        padding: 0px;
     }
 
     .TestText{
@@ -375,7 +375,7 @@ p {
         height: 50%;
         width: 50%;
         align-content: center;
-        margin-left: 25%;
+        margin: auto;
     }
     .TestText h3{
         text-align: center;
@@ -565,7 +565,7 @@ ul {
     }
 
     .Left-footer ul li a {
-        font-size: 12px;
+        font-size: 12px; 
     }
 }
 
