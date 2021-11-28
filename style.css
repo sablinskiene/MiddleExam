@@ -137,20 +137,21 @@ input {
  @media (max-width: 700px) {
     form{
         flex-direction: column;
-        align-content: space-around;
+        /* align-content: space-around; */
         margin: auto;
     }
     form input{
-        width: 90%;
+        width: 95%;
+        margin-right: 0px;
         margin: auto;
-        margin-left: 0px;
         margin-bottom: 10px;
 
        
     }
    form .button {
-       width: 60%;
+       width: 80%;
        margin: auto;
+       margin-left: 10px;
        text-align: center;
     }
     }
